@@ -9,7 +9,8 @@ body    {
     width: 400px;
     background-color: hsl(213, 19%, 18%);
     border-radius: 10%;
-    margin: 200px;
+    margin-top: 200px;
+    margin-left: 500px;
     padding: 20px;
     /* background: linear-gradient(0deg, hsl(216, 12%, 8%)  0%, hsl(213, 19%, 18%) 100%) */
 }
@@ -17,7 +18,8 @@ body    {
     width: 400px;
     background-color: hsl(213, 19%, 18%);
     border-radius: 10%;
-    margin: 200px;
+    margin-top: 200px;
+    margin-left: 500px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -73,3 +75,11 @@ button  {
     justify-content: center;
     align-items: center;
 }
+#not-button {
+    width: 250px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: hsl(214, 23%, 22%);
+    color:hsl(25, 97%, 53%)
+}
+
