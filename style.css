@@ -13,16 +13,33 @@ body    {
 }
 h1  {
     color: hsl(0, 0%, 100%);
+    margin: 10px;
 }
 p  {
     color: hsl(217, 12%, 63%);
+    margin: 10px;
 }
 .number-circle  {
     color: hsl(217, 12%, 63%);
     background-color: hsl(214, 23%, 22%);
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.number {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+#rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 button  {
     background-color: hsl(25, 97%, 53%);
