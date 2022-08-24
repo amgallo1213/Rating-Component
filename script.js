@@ -7,6 +7,6 @@ function turnOrange(element) {
     numberCircle.style.borderColor = "orange";
 }
 
-function submitRating() {
+function submitRating(element) {
     window.location.href="submitted.html";
 }
