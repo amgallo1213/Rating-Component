@@ -53,6 +53,7 @@ h1  {
     margin: 5px;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 .number {
     display: flex;
@@ -82,6 +83,7 @@ button:hover    {
     height: 50px;
     border-radius: 30px;
     margin: 20px;
+    cursor: pointer;
 }
 #star-icon  {
     margin: 20px;
